@@ -1,0 +1,14 @@
+
+@import '../../styles/settings.scss';
+.columnFrom {
+display: flex;
+align-items: center;
+padding: 10px;
+@media (max-width: 768px) { // Ustawienia dla ekranów mobilnych
+    align-items: stretch;
+}
+
+}
+.span {
+    margin: 10px;
+}
